@@ -35,11 +35,3 @@ D_j → Duration of the job in hours
 
 T_h    → Number of hours in a working day (6)
 
-Objective Function
-
-max∑_j∑_d〖x_(j,d)*P_j
-
-Constraints
-∑_d〖x_(j,d)*D_j≤T_h                 ∀d〗
-∑_d〖x_(j,d)≤1                           ∀j〗
-∑_d〖x_(j,d)≤1                           ∀d〗
